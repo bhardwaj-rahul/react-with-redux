@@ -8,13 +8,13 @@ require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
 require('style-loader!css-loader!applicationStyles');
 
 $(document).foundation();
-ReactDOM.render(
-  <Router history ={hashHistory}>
-    <Route path="/" component={Main} >
-    </Route>
-  </Router>,
-  document.getElementById('app')
-);
+// ReactDOM.render(
+//   <Router history ={hashHistory}>
+//     <Route path="/" component={Main} >
+//     </Route>
+//   </Router>,
+//   document.getElementById('app')
+// );
 
 // require('./redux-example.jsx');
 require('./redux-todo-example.jsx');
